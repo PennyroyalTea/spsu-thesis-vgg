@@ -49,11 +49,6 @@ RUN pip3 install --no-cache-dir \
     scikit-image \
     pandas
 
-RUN pip3 install --no-cache-dir \
-    scikit-learn \
-    scikit-image \
-    pandas
-
 RUN pip3 install torch==1.11.0 torchvision==0.12.0 svgwrite svgpathtools cssutils numpy torch-tools visdom
 
 RUN git clone https://github.com/BachiLi/diffvg.git\
