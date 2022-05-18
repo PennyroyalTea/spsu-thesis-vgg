@@ -1,0 +1,3 @@
+[submodule "Im2Vec"]
+	path = Im2Vec
+	url = https://github.com/preddy5/Im2Vec
